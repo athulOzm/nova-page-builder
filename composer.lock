@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15c7c78ee407cb1ba87f587cd253b7ee",
+    "content-hash": "07736b6c222190a346550defe5e5cd99",
     "packages": [
         {
             "name": "brick/math",
@@ -194,7 +194,7 @@
         },
         {
             "name": "clevyr/nova-filemanager",
-            "version": "v5.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/athulOzm/nova-filemanager.git",
@@ -214,6 +214,7 @@
                 "orchestra/testbench": "^9.0",
                 "phpunit/phpunit": "^11.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -11068,7 +11069,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "clevyr/nova-filemanager": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
